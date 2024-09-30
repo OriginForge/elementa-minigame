@@ -7,6 +7,7 @@ const TelegramUserInfo = () => {
     if (window.Telegram.WebApp.initDataUnsafe.user) {
       setUser(window.Telegram.WebApp.initDataUnsafe.user);
     }
+
   }, []);
 
   if (!user) {
